@@ -4,7 +4,9 @@ angular.module("quote", [])
 			restrict: "E",
 			scope: {
 				textUkr: "@",
-				textEng: "@"
+				textEng: "@",
+				renderIndex: "@",
+				carouselIndex: "@"
 			},
 			templateUrl: "components/quote/quote.html",
 			link: function(){

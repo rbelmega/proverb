@@ -1,1 +1,1 @@
-angular.module("components",["quote"]),angular.module("quote",[]).directive("rQuote",function(){return{restrict:"E",scope:{textUkr:"@",textEng:"@"},templateUrl:"components/quote/quote.html",link:function(){}}});
+angular.module("components",["quote"]),angular.module("quote",[]).directive("rQuote",function(){return{restrict:"E",scope:{textUkr:"@",textEng:"@",renderIndex:"@",carouselIndex:"@"},templateUrl:"components/quote/quote.html",link:function(){}}});
