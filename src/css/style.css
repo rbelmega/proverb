@@ -1,0 +1,109 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.nonDraggableImage{
+	-webkit-user-drag: none;
+}
+
+.bg {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+	background: url("../img/beautiful-forest-and-mountains-2628-1920x1080.jpg");
+}
+
+.papyrys {
+	pointer-events: none;
+	top: 40px;
+	position: relative;
+	width: 75%;
+	height: 75%;
+	margin: auto;
+	text-align: center;
+	color: #7B6351;
+	font-size: 37px;
+	line-height: 42px;
+	font-weight: bold;
+	font-family: 'Marck Script', cursive;
+}
+
+.quote {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	width: 100%;
+	padding: 0 15%;
+}
+.quote-eng {
+	position: relative;
+	height: 50%;
+}
+
+.quote-ukr {
+	height: 50%;
+	width: 100%;
+}
+
+.quote-eng p {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 12px;
+}
+
+.quote-ukr p {
+	margin-top: 12px;
+}
+
+.divider {
+	border-bottom: 1px solid #9b8951;
+	box-shadow: 0 1px 1px #fde2ab;
+}
+
+.controls {
+	position: fixed;
+	bottom: 65px;
+	width: 100%;
+}
+
+.btn-controls {
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 30px;
+	color: #9b8951;
+	text-shadow: 1px 0 #442d00;
+	margin: 20px;
+}
+
+.share {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.list {
+	position: absolute;
+	left: 0;
+}
+
+.setting {
+	position: absolute;
+	right: 0;
+}
+
+.scetch {
+	width:100%;
+	height:100%;
+	pointer-events: none;
+}

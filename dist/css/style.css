@@ -1,7 +1,14 @@
+input[type=range]{width:300px}ul[rn-carousel]{overflow:hidden;padding:0;white-space:nowrap;position:relative;-webkit-perspective:1000px;-ms-perspective:1000px;perspective:1000px;-ms-touch-action:pan-y;touch-action:pan-y}ul[rn-carousel]>li{color:#000;-webkit-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden;overflow:visible;vertical-align:top;position:absolute;left:0;right:0;white-space:normal;padding:0;margin:0;list-style-type:none;width:100%;height:100%;display:inline-block}ul[rn-carousel-buffered]>li{display:none}ul[rn-carousel-transition=hexagon]{overflow:visible}div.rn-carousel-indicator span{cursor:pointer;color:#666}div.rn-carousel-indicator span.active{color:#fff}.rn-carousel-control{-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out;font-size:2rem;position:absolute;top:40%;opacity:.75;cursor:pointer}.rn-carousel-control:hover{opacity:1}.rn-carousel-control.rn-carousel-control-prev{left:.5em}.rn-carousel-control.rn-carousel-control-prev:before{content:"<"}.rn-carousel-control.rn-carousel-control-next{right:.5em}.rn-carousel-control.rn-carousel-control-next:before{content:">"}
+ul[rn-carousel] {
+	height: 100%;
+}
 html, body {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+}
+.nonDraggableImage{
+	-webkit-user-drag: none;
 }
 
 .bg {
@@ -20,17 +27,17 @@ html, body {
 }
 
 .papyrys {
+	pointer-events: none;
 	top: 40px;
 	position: relative;
 	width: 75%;
 	height: 75%;
 	margin: auto;
 	text-align: center;
-	color: #9b8951;
+	color: #7B6351;
 	font-size: 37px;
 	line-height: 42px;
 	font-weight: bold;
-	text-shadow: 1px 0 #442d00;
 	font-family: 'Marck Script', cursive;
 }
 
