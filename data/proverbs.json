@@ -1,14 +1,1206 @@
 [
   {
-    "textUkr": "Поспішити - людей насмішити",
-    "textEng": "Fool's haste is no speed"
+    "textUkr": "Поганий мир кращий доброї сварки",
+    "textEng": "A bad compromise is better than a good lawsuit"
   },
   {
-    "textUkr": "Бог дав, Бог взяв",
+    "textUkr": "У поганого майстра погана пила",
+    "textEng": "A bad workman always blames his tools"
+  },
+  {
+    "textUkr": "Шкіра та кості",
+    "textEng": "A bag of bones"
+  },
+  {
+    "textUkr": "Договір дорожчий від грошей",
+    "textEng": "A bargain is a bargain"
+  },
+  {
+    "textUkr": "Видно птаха по польоту",
+    "textEng": "A bird may be known by its song"
+  },
+  {
+    "textUkr": "Чорна курка несе білі яйця",
+    "textEng": "A black hen lays a white egg"
+  },
+  {
+    "textUkr": "Не було б щастя, так нещастя допомогло",
+    "textEng": "A blessing in disguise"
+  },
+  {
+    "textUkr": "Любиш кататися - люби і саночки возити",
+    "textEng": "A cat in gloves catches no mice"
+  },
+  {
+    "textUkr": "Живучий, як кішка",
+    "textEng": "A cat with nine lives"
+  },
+  {
+    "textUkr": "Де тонко, там і рветься",
+    "textEng": "A chain is no stronger than its weakest link"
+  },
+  {
+    "textUkr": "Скрипуче дерево два віки стоїть",
+    "textEng": "A creaking door hangs long on its hinges"
+  },
+  {
+    "textUkr": "Собака на сіні",
+    "textEng": "A dog in the manger"
+  },
+  {
+    "textUkr": "Капля в морі",
+    "textEng": "A drop in the bucket [ocean]"
+  },
+  {
+    "textUkr": "Ложка дьогтю в бочці меду",
+    "textEng": "A fly in the ointment"
+  },
+  {
+    "textUkr": "Друг пізнається в біді",
+    "textEng": "A friend in need is a friend indeed"
+  },
+  {
+    "textUkr": "Краще гірка правда, ніж солодка брехня",
+    "textEng": "A friend's frown is better than a foe's smile"
+  },
+  {
+    "textUkr": "Краще синиця в жмені, ніж журавель в небі",
+    "textEng": "A gift in the hand is better than two promises"
+  },
+  {
+    "textUkr": "Великому кораблю - велике плавання",
+    "textEng": "A great ship asks deep waters"
+  },
+  {
+    "textUkr": "Кінь на чотирьох ногах - і то спотикається",
+    "textEng": "A horse stumbles that has four legs"
+  },
+  {
+    "textUkr": "Сорока на хвості принесла",
+    "textEng": "A little bird told me"
+  },
+  {
+    "textUkr": "Скажи мені, хто твій друг, і я скажу, хто ти",
+    "textEng": "A man is known by the company he keeps"
+  },
+  {
+    "textUkr": "Трішки - не рахується",
+    "textEng": "A miss is as good as a mile"
+  },
+  {
+    "textUkr": "Всі там будемо",
+    "textEng": "A piece of the churchyard fits everybody"
+  },
+  {
+    "textUkr": "Камінь, що котиться, мохом не обростає",
+    "textEng": "A rolling stone gathers no moss"
+  },
+  {
+    "textUkr": "В здоровому тілі здоровий дух",
+    "textEng": "A sound mind in a sound body"
+  },
+  {
+    "textUkr": "Буря в склянці води",
+    "textEng": "A storm in a tea-cup"
+  },
+  {
+    "textUkr": "Слово - не горобець, вилетить - не спіймаєш",
+    "textEng": "A word spoken is past recalling"
+  },
+  {
+    "textUkr": "Не по словах судять, а по ділах",
+    "textEng": "Actions speak louder than words"
+  },
+  {
+    "textUkr": "Підлити масла в вогонь",
+    "textEng": "Add fuel to the fire"
+  },
+  {
+    "textUkr": "Після бою руками не махають",
+    "textEng": "After death the doctor"
+  },
+  {
+    "textUkr": "Вночі всі кішки сірі",
+    "textEng": "All cats are grey in the dark"
+  },
+  {
+    "textUkr": "Не все золото, що блищить",
+    "textEng": "All is not gold that glitters"
+  },
+  {
+    "textUkr": "Все добре, що добре закінчується",
+    "textEng": "All is well that ends well"
+  },
+  {
+    "textUkr": "Бур'ян завжди добре росте",
+    "textEng": "All weeds grow apace"
+  },
+  {
+    "textUkr": "Береженого Бог береже",
+    "textEng": "Although the sun shines, leave not thy cloak at home"
+  },
+  {
+    "textUkr": "Язик мій - ворог мій",
+    "textEng": "An ox is taken by the horns, and the man by the tongue"
+  },
+  {
+    "textUkr": "Апетит приходить під час їди",
+    "textEng": "Appetite comes with the eating"
+  },
+  {
+    "textUkr": "Дурень набитий",
+    "textEng": "As bold as brass"
+  },
+  {
+    "textUkr": "Як дві каплі води",
+    "textEng": "As like as two peas"
+  },
+  {
+    "textUkr": "Старе, як світ",
+    "textEng": "As old as the hills"
+  },
+  {
+    "textUkr": "Блідий, як смерть",
+    "textEng": "As pale as a ghost"
+  },
+  {
+    "textUkr": "Тепло, світло і мухи не кусають",
+    "textEng": "As snug as a bug in a rug"
+  },
+  {
+    "textUkr": "Що посієш, те й пожнеш",
+    "textEng": "As you sow, so you reap"
+  },
+  {
+    "textUkr": "Вдома і стіни допомагають",
+    "textEng": "At home even the walls help"
+  },
+  {
+    "textUkr": "У чорта на кулічках",
+    "textEng": "At the ends of the earth"
+  },
+  {
+    "textUkr": "Погані чутки на крилах летять",
+    "textEng": "Bad news has wings"
+  },
+  {
+    "textUkr": "Погані новини передаються швидко",
+    "textEng": "Bad news travels quickly"
+  },
+  {
+    "textUkr": "Чортова дюжина",
+    "textEng": "Baker's dozen"
+  },
+  {
+    "textUkr": "Бути не в своїй тарілці (почуватися незручно)",
+    "textEng": "Be in the wrong box"
+  },
+  {
+    "textUkr": "Сам живи й іншим не заважай",
+    "textEng": "Bear and forbear"
+  },
+  {
+    "textUkr": "Ззовні мило, всередині - гнило",
+    "textEng": "Beauty is only [but] skin deep"
+  },
+  {
+    "textUkr": "Не встигнеш і оком моргнути",
+    "textEng": "Before one can say Jack Robinson"
+  },
+  {
+    "textUkr": "І охнути не встигнеш",
+    "textEng": "Before you know where you are"
+  },
+  {
+    "textUkr": "Напад - кращий вид оборони",
+    "textEng": "Best defense is offence"
+  },
+  {
+    "textUkr": "На безриб’ї і рак риба",
+    "textEng": "Better a lean jade than an empty halter"
+  },
+  {
+    "textUkr": "Хорошого - потрохи",
+    "textEng": "Better a little fire to warm us, than a great one to burn us"
+  },
+  {
+    "textUkr": "Не родися красивим, а родися щасливим",
+    "textEng": "Better be born lucky than rich"
+  },
+  {
+    "textUkr": "Краще бути першим серед останніх, ніж останнім серед перших",
+    "textEng": "Better be the head of a dog, than the tail of a lion"
+  },
+  {
+    "textUkr": "Краще вмерти стоячи, ніж жити на колінах",
+    "textEng": "Better die standing than live kneeling"
+  },
+  {
+    "textUkr": "Краще пізно, ніж ніколи",
+    "textEng": "Better late than never"
+  },
+  {
+    "textUkr": "Із двох бід вибирають меншу",
+    "textEng": "Better one-eyed than stone-blind"
+  },
+  {
+    "textUkr": "Між двома вогнями",
+    "textEng": "Between the upper and nether millstone"
+  },
+  {
+    "textUkr": "Між молотом і наковальнею",
+    "textEng": "Betwixt and between"
+  },
+  {
+    "textUkr": "Ні се, ні те",
+    "textEng": "Birds of feather flock together"
+  },
+  {
+    "textUkr": "Ні риба, ні м’ясо",
+    "textEng": "Blind men can judge no colors"
+  },
+  {
+    "textUkr": "Рибак рибака бачить здалеку",
+    "textEng": "Books and friends should be few but good"
+  },
+  {
+    "textUkr": "Сліпій курці все пшениця",
+    "textEng": "Boys will be boys"
+  },
+  {
+    "textUkr": "Істинні друзі, як і мудрі книги - рідкість",
+    "textEng": "By hook or by crook"
+  },
+  {
+    "textUkr": "Діти є діти",
+    "textEng": "Call a spade a spade"
+  },
+  {
+    "textUkr": "Всіма правдами і неправдами",
+    "textEng": "Cat-and-dog life"
+  },
+  {
+    "textUkr": "Називай речі своїми іменами",
+    "textEng": "Cat's concert"
+  },
+  {
+    "textUkr": "Жити як кішка зі собакою",
+    "textEng": "Charity begins at home"
+  },
+  {
+    "textUkr": "Хто в ліс, хто по дрова",
+    "textEng": "Claw me, and I'll claw thee"
+  },
+  {
+    "textUkr": "Своя сорочка ближче до тіла",
+    "textEng": "Cleanliness is next to godliness"
+  },
+  {
+    "textUkr": "Рука руку миє",
+    "textEng": "Constant dropping wears away a stone"
+  },
+  {
+    "textUkr": "Чистота - запорука здоров’я",
+    "textEng": "Cross the stream where it is shallowest"
+  },
+  {
+    "textUkr": "Капля камінь точить",
+    "textEng": "Curiosity killed the cat"
+  },
+  {
+    "textUkr": "Не знаєш броду, не лізь у воду",
+    "textEng": "Curses like chickens come home to roost"
+  },
+  {
+    "textUkr": "Багато будеш знати - швидко зістарієшся",
+    "textEng": "Custom is a second nature"
+  },
+  {
+    "textUkr": "Надмірна цікавість до добра не доведе",
+    "textEng": "Cut from the same cloth"
+  },
+  {
+    "textUkr": "Якби знав, де впадеш, соломинки б підстелив",
+    "textEng": "Danger foreseen is half avoided"
+  },
+  {
+    "textUkr": "Глухий, як пень",
+    "textEng": "Deaf as an adder [a beetle, a post, a stone]"
+  },
+  {
+    "textUkr": "Менше слів, більше діла",
+    "textEng": "Deeds, not words"
+  },
+  {
+    "textUkr": "Розділяй і владарюй!",
+    "textEng": "Divide and rule!"
+  },
+  {
+    "textUkr": "Проти лома нема прийому",
+    "textEng": "Do not kick against the pricks"
+  },
+  {
+    "textUkr": "Не виноси сміття з хати",
+    "textEng": "Do not wash your dirty linen in public"
+  },
+  {
+    "textUkr": "Не рубай гілку, на якій сидиш",
+    "textEng": "Don't cut the bough you are standing on"
+  },
+  {
+    "textUkr": "Поки грім не гряне, чоловік не перехреститься",
+    "textEng": "Don't have thy cloak to make when it begins to rain"
+  },
+  {
+    "textUkr": "Дарованому коневі в зуби не заглядають",
+    "textEng": "Don't look a gift horse in the mouth"
+  },
+  {
+    "textUkr": "Не роби з мухи слона",
+    "textEng": "Don't make a mountain out of a molehill"
+  },
+  {
+    "textUkr": "З вогнем жарти погані",
+    "textEng": "Don't play with fire"
+  },
+  {
+    "textUkr": "Не плюй в криницю - прийдеться води напитися",
+    "textEng": "Don't quarrel with your bread and butter"
+  },
+  {
+    "textUkr": "Лежачого не б'ють",
+    "textEng": "Don't strike a man when he is down"
+  },
+  {
+    "textUkr": "Коней на переправі не міняють",
+    "textEng": "Don't swap horses when crossing a stream"
+  },
+  {
+    "textUkr": "Не вчи риб плавати",
+    "textEng": "Don't teach fishes to swim"
+  },
+  {
+    "textUkr": "Яйця курку не вчать",
+    "textEng": "Don't teach your grandmother to suck eggs"
+  },
+  {
+    "textUkr": "Не буди лиха, поки лихо спить",
+    "textEng": "Don't trouble your trouble until your trouble troubles you"
+  },
+  {
+    "textUkr": "Що у п'яного на язиці, те у тверезого в голові",
+    "textEng": "Drunkenness reveals what soberness conceals"
+  },
+  {
+    "textUkr": "В гостях добре, а вдома - краще",
+    "textEng": "Dry bread at home is better than roast meat abroad"
+  },
+  {
+    "textUkr": "Хто рано лягає і рано встає, той здоров'я, багатство і розум наживе",
+    "textEng": "Early to bed and early to rise, makes a man healthy, wealthy, and wise"
+  },
+  {
+    "textUkr": "Хто рано встає, тому Бог дає",
+    "textEng": "East or west, home is best"
+  },
+  {
+    "textUkr": "Всюди добре, а вдома найкраще",
     "textEng": "Easy come, easy go"
   },
   {
-    "textUkr": "Поспішити - людей насмішити",
-    "textEng": "Fool's haste is no speed"
+    "textUkr": "Як прийшло, так і пішло",
+    "textEng": "Eat at pleasure, drink with measure"
+  },
+  {
+    "textUkr": "Їж вволю, а пий в міру",
+    "textEng": "Empty vessels make the greatest sound"
+  },
+  {
+    "textUkr": "Пуста бочка найбільше скрипить",
+    "textEng": "Every barber knows that"
+  },
+  {
+    "textUkr": "По секрету всьому світу",
+    "textEng": "Every bullet has its billet"
+  },
+  {
+    "textUkr": "Кожному своє",
+    "textEng": "Every law has a loophole"
+  },
+  {
+    "textUkr": "Закон - як дишло, куди повернеш - туди й вийшло",
+    "textEng": "Every man is a fool or a physician at forty"
+  },
+  {
+    "textUkr": "Сивина в бороду, а біс в ребро",
+    "textEng": "Everything is good in its season"
+  },
+  {
+    "textUkr": "На все свій час",
+    "textEng": "Evil communications corrupt good manners"
+  },
+  {
+    "textUkr": "З вовками жити, по-вовчому вити",
+    "textEng": "Extremes meet"
+  },
+  {
+    "textUkr": "Протилежності сходяться",
+    "textEng": "Fear has magnifying eyes"
+  },
+  {
+    "textUkr": "У страху великі очі",
+    "textEng": "Fish begins to stink at the head"
+  },
+  {
+    "textUkr": "Риба гниє з голови",
+    "textEng": "Fools rush in where angels fear to tread"
+  },
+  {
+    "textUkr": "Дурням закон не писаний",
+    "textEng": "For a rainy day"
+  },
+  {
+    "textUkr": "На чорний день",
+    "textEng": "Forbidden fruit is sweetest"
+  },
+  {
+    "textUkr": "Заборонений плід - солодкий",
+    "textEng": "Fortune favours fools"
+  },
+  {
+    "textUkr": "Дурням везе",
+    "textEng": "From smoke into smother"
+  },
+  {
+    "textUkr": "Із вогню та в полум'я",
+    "textEng": "From tile sublime to the ridiculous is but a step"
+  },
+  {
+    "textUkr": "Від великого до смішного - один крок",
+    "textEng": "Fussy as a hen with one chick"
+  },
+  {
+    "textUkr": "Застав дурня Богу молитися, так він лоб розіб'є",
+    "textEng": "Give a fool rope enough, and he will hang himself"
+  },
+  {
+    "textUkr": "Дай йому палець, а він хоче всю руку",
+    "textEng": "Give him an inch and he'll take a mile"
+  },
+  {
+    "textUkr": "Не сунь носа в чужі справи",
+    "textEng": "Go home and say your prayers"
+  },
+  {
+    "textUkr": "Рідше бачиш, більше любиш",
+    "textEng": "Good fences make good neighbours"
+  },
+  {
+    "textUkr": "Здоров’я важливіше від грошей",
+    "textEng": "Good health is above wealth"
+  },
+  {
+    "textUkr": "Багато шуму із-за нічого",
+    "textEng": "Great boast, small roast"
+  },
+  {
+    "textUkr": "Клин клином вибивають",
+    "textEng": "Habit cures habit"
+  },
+  {
+    "textUkr": "Як риба об лід",
+    "textEng": "Hard put for a livelihood"
+  },
+  {
+    "textUkr": "Ворон ворону ока не виклює",
+    "textEng": "Hawk will not pick out hawks' eyes"
+  },
+  {
+    "textUkr": "Він і мухи не образить",
+    "textEng": "He can't say \"boo\" to a goose"
+  },
+  {
+    "textUkr": "Впертий, як осел",
+    "textEng": "He is an obstinate pig"
+  },
+  {
+    "textUkr": "У нього не всі вдома",
+    "textEng": "He is not quite all there"
+  },
+  {
+    "textUkr": "Добре сміється той, хто сміється останнім",
+    "textEng": "He laughs best who laughs last"
+  },
+  {
+    "textUkr": "Двом смертям не бувати, а одної не минути",
+    "textEng": "He that fears death lives not"
+  },
+  {
+    "textUkr": "Вовків боятися - в ліс не ходити",
+    "textEng": "He that fears every bush must never go a-birding"
+  },
+  {
+    "textUkr": "На злодію і шапка горить",
+    "textEng": "He that has a great nose thinks everybody is speaking of it"
+  },
+  {
+    "textUkr": "Не помиляється той, хто нічого не робить",
+    "textEng": "He that never climbed never fell"
+  },
+  {
+    "textUkr": "Хто платить, той і музику замовляє",
+    "textEng": "He that pays the piper calls the tune"
+  },
+  {
+    "textUkr": "Любиш кататися - люби і саночки возити",
+    "textEng": "He that would have eggs must endure the cackling of hens"
+  },
+  {
+    "textUkr": "Всім не вгодиш",
+    "textEng": "He who pleased everybody died before he was born"
+  },
+  {
+    "textUkr": "Історія повторюється",
+    "textEng": "History repeats itself"
+  },
+  {
+    "textUkr": "Надія вмирає останньою",
+    "textEng": "Hope springs eternal in the human breast"
+  },
+  {
+    "textUkr": "З ким поведешся, того й наберешся",
+    "textEng": "If you lie down with dogs, will get up with fleas"
+  },
+  {
+    "textUkr": "За двома зайцями поженешся - жодного не піймаєш",
+    "textEng": "If you run after two hares, you'll catch none"
+  },
+  {
+    "textUkr": "Хочеш миру - готуйся до війни",
+    "textEng": "If you want peace, prepare for war"
+  },
+  {
+    "textUkr": "В одне вухо влетіло, в друге - вилетіло",
+    "textEng": "In at one ear and out at the other"
+  },
+  {
+    "textUkr": "Само собою розуміється",
+    "textEng": "It goes without saying"
+  },
+  {
+    "textUkr": "Легше зруйнувати, ніж збудувати",
+    "textEng": "It is easier to pull down than to build"
+  },
+  {
+    "textUkr": "Це для мене китайська грамота",
+    "textEng": "It is Greek [Hebrew] to me"
+  },
+  {
+    "textUkr": "Любов править світом",
+    "textEng": "It is love that makes the world go round"
+  },
+  {
+    "textUkr": "Вчитися ніколи не пізно",
+    "textEng": "It is never too late to learn"
+  },
+  {
+    "textUkr": "Сльозами горю не допоможеш",
+    "textEng": "It is no use crying over spilt milk"
+  },
+  {
+    "textUkr": "Не місце красить людину, а людина місце",
+    "textEng": "It is not the places that grace the men, but men the places"
+  },
+  {
+    "textUkr": "Дощ ллє, як з відра",
+    "textEng": "It rains cats and dogs"
+  },
+  {
+    "textUkr": "Світ тісний",
+    "textEng": "It's a small world"
+  },
+  {
+    "textUkr": "Курам на сміх",
+    "textEng": "It's enough to make a cat laugh"
+  },
+  {
+    "textUkr": "Жарти в сторону",
+    "textEng": "Joking apart"
+  },
+  {
+    "textUkr": "Ще молоко на губах не обсохло",
+    "textEng": "Just out of swaddling-clothes"
+  },
+  {
+    "textUkr": "Як би не зурочити!",
+    "textEng": "Keep your fingers crossed!"
+  },
+  {
+    "textUkr": "Син рибака з дитинства у воду дивиться",
+    "textEng": "Know the breed, know the dog"
+  },
+  {
+    "textUkr": "Простіше простого",
+    "textEng": "Lead-pipe cinch"
+  },
+  {
+    "textUkr": "На все свій час",
+    "textEng": "Learn to crawl before you walk [run]"
+  },
+  {
+    "textUkr": "Майстер на всі руки",
+    "textEng": "Left-handed to no profession"
+  },
+  {
+    "textUkr": "Яблуко від яблуні не далеко падає",
+    "textEng": "Like father, like son"
+  },
+  {
+    "textUkr": "Як по маслу",
+    "textEng": "Like greased lightning"
+  },
+  {
+    "textUkr": "Як з гуски вода",
+    "textEng": "Like water of a duck's back"
+  },
+  {
+    "textUkr": "Народжений повзати літати не буде",
+    "textEng": "Little things amuse [please] little minds"
+  },
+  {
+    "textUkr": "Вік живи і вік вчися",
+    "textEng": "Live and learn"
+  },
+  {
+    "textUkr": "Насильно любити не заставиш",
+    "textEng": "Love cannot be forced"
+  },
+  {
+    "textUkr": "Любов сліпа",
+    "textEng": "Love is blind"
+  },
+  {
+    "textUkr": "Не везе в картах - повезе в коханні",
+    "textEng": "Lucky at cards, unlucky in love"
+  },
+  {
+    "textUkr": "Коси, коса, поки роса",
+    "textEng": "Make hay while the sun shines"
+  },
+  {
+    "textUkr": "Куй залізо, поки гаряче",
+    "textEng": "Man does not live by bread alone"
+  },
+  {
+    "textUkr": "Не хлібом єдиним живе людина",
+    "textEng": "Many words will not fill a bushel"
+  },
+  {
+    "textUkr": "Розмовами ситим не будеш",
+    "textEng": "Measure for measure"
+  },
+  {
+    "textUkr": "Око за око, зуб за зуб",
+    "textEng": "Might goes before right"
+  },
+  {
+    "textUkr": "Сила є, розуму не треба",
+    "textEng": "Might is right"
+  },
+  {
+    "textUkr": "Сила - найкращий аргумент",
+    "textEng": "Minutes make hours"
+  },
+  {
+    "textUkr": "Копійка гривню береже",
+    "textEng": "Misfortunes never come alone"
+  },
+  {
+    "textUkr": "Біда не приходить одна",
+    "textEng": "Money has no smell"
+  },
+  {
+    "textUkr": "Гроші не пахнуть",
+    "textEng": "Money makes money"
+  },
+  {
+    "textUkr": "Гроші роблять гроші",
+    "textEng": "More haste, less speed"
+  },
+  {
+    "textUkr": "Тихіше їдеш - дальше будеш",
+    "textEng": "Much ado about nothing"
+  },
+  {
+    "textUkr": "Багато шуму з нічого",
+    "textEng": "Mute as a fish"
+  },
+  {
+    "textUkr": "Німий, як риба",
+    "textEng": "My house is my castle"
+  },
+  {
+    "textUkr": "Мій дім - моя фортеця",
+    "textEng": "Necessity is the mother of invention"
+  },
+  {
+    "textUkr": "Біда всього навчить",
+    "textEng": "Neck or nothing"
+  },
+  {
+    "textUkr": "Або пан, або пропав",
+    "textEng": "Neither here nor there"
+  },
+  {
+    "textUkr": "Все або нічого",
+    "textEng": "Never put off till tomorrow what you can do today"
+  },
+  {
+    "textUkr": "Ні тут, ні там",
+    "textEng": "New lords, new laws"
+  },
+  {
+    "textUkr": "Ніколи не відкладай на завтра те, що можеш зробити сьогодні",
+    "textEng": "No flies on him"
+  },
+  {
+    "textUkr": "Нова мітла по-новому мете",
+    "textEng": "No flying from fate"
+  },
+  {
+    "textUkr": "Його не проведеш",
+    "textEng": "No man can serve two masters"
+  },
+  {
+    "textUkr": "Йому палець в рот не клади",
+    "textEng": "No news is good news"
+  },
+  {
+    "textUkr": "Від долі не втечеш",
+    "textEng": "Not a pin to choose between them"
+  },
+  {
+    "textUkr": "Двом панам не служать",
+    "textEng": "Not all that glitters is gold"
+  },
+  {
+    "textUkr": "Відсутність новин - добра новина",
+    "textEng": "Nothing comes out of the sack but what was in it"
+  },
+  {
+    "textUkr": "Один другого вартий",
+    "textEng": "Nothing hurts like the truth"
+  },
+  {
+    "textUkr": "Не все золото, що блищить",
+    "textEng": "Nothing seek, nothing find"
+  },
+  {
+    "textUkr": "Вище від голови не стрибнеш",
+    "textEng": "Nothing venture, nothing gained"
+  },
+  {
+    "textUkr": "Старий друг - кращий двох нових",
+    "textEng": "Old friends and old wine are best"
+  },
+  {
+    "textUkr": "Всякому терпінню приходить кінець",
+    "textEng": "One must draw the line somewhere"
+  },
+  {
+    "textUkr": "Одна ластівка весни не робить",
+    "textEng": "One swallow doesn't make a summer"
+  },
+  {
+    "textUkr": "Тільки через мій труп!",
+    "textEng": "Over my dead body!"
+  },
+  {
+    "textUkr": "Набилися, як оселедці в бочку",
+    "textEng": "Packed like herrings"
+  },
+  {
+    "textUkr": "Бідність - не вада",
+    "textEng": "Poverty is no sin"
+  },
+  {
+    "textUkr": "Повторення - мати навчання",
+    "textEng": "Practice makes perfect"
+  },
+  {
+    "textUkr": "Обіцяного три роки чекають",
+    "textEng": "Promises are like piecrust, made to be broken"
+  },
+  {
+    "textUkr": "Надувся як індик",
+    "textEng": "Proud as a peacock"
+  },
+  {
+    "textUkr": "Вчасно змотати вудки",
+    "textEng": "Pull up stakes"
+  },
+  {
+    "textUkr": "Точність - ввічливість королів",
+    "textEng": "Punctuality is the politeness of kings"
+  },
+  {
+    "textUkr": "Зарубай це собі на носі",
+    "textEng": "Put that in your pipe and smoke it"
+  },
+  {
+    "textUkr": "Намотай собі на вус",
+    "textEng": "Rain at seven, fine at eleven"
+  },
+  {
+    "textUkr": "Сім п'ятниць на тиждень",
+    "textEng": "Rats desert a sinking ship"
+  },
+  {
+    "textUkr": "Щурі втікають з потопаючого корабля",
+    "textEng": "Respect is greater from a distance"
+  },
+  {
+    "textUkr": "Легко любити тих, хто далеко",
+    "textEng": "Respect yourself, or no one else will respect you"
+  },
+  {
+    "textUkr": "Хто сам себе не поважає, того й інші поважати не будуть",
+    "textEng": "Revenge is sweet"
+  },
+  {
+    "textUkr": "Помста солодка",
+    "textEng": "Roll my log and I'll roll yours"
+  },
+  {
+    "textUkr": "Послуга за послугу. Я тобі - ти мені",
+    "textEng": "Rome was not built in a day"
+  },
+  {
+    "textUkr": "Не відразу діло робиться",
+    "textEng": "Saying and doing are two things"
+  },
+  {
+    "textUkr": "Легше сказати, ніж зробити",
+    "textEng": "Score twice before you cut once"
+  },
+  {
+    "textUkr": "Сім разів відміряй, один раз відріж",
+    "textEng": "Second thoughts are best"
+  },
+  {
+    "textUkr": "Сім раз відміряй, один раз відріж",
+    "textEng": "Silence gives consent"
+  },
+  {
+    "textUkr": "Мовчання - знак згоди",
+    "textEng": "Slow help is no help"
+  },
+  {
+    "textUkr": "Дорога ложка до обіду",
+    "textEng": "Small rain lays great dust"
+  },
+  {
+    "textUkr": "Малий, та вдалий",
+    "textEng": "So many men, so many minds"
+  },
+  {
+    "textUkr": "Скільки людей, стільки й думок",
+    "textEng": "Speech is silver, but silence is gold"
+  },
+  {
+    "textUkr": "Слово - срібло, мовчанка - золото",
+    "textEng": "Still waters run deep"
+  },
+  {
+    "textUkr": "В тихому болоті чорти водяться",
+    "textEng": "Store is no sore"
+  },
+  {
+    "textUkr": "Чим більше, тим краще",
+    "textEng": "Strike while the iron is hot"
+  },
+  {
+    "textUkr": "Брати бика за роги",
+    "textEng": "Take the bull by the horns"
+  },
+  {
+    "textUkr": "Вилетіти в трубу (збанкротувати)",
+    "textEng": "Take the knock"
+  },
+  {
+    "textUkr": "Легкий на згадку",
+    "textEng": "Talk of the devil and he is sure to appear"
+  },
+  {
+    "textUkr": "Про смаки не сперечаються",
+    "textEng": "Tastes differ"
+  },
+  {
+    "textUkr": "Цей номер не пройде",
+    "textEng": "That cock won't fight"
+  },
+  {
+    "textUkr": "Ось де собака зарита",
+    "textEng": "That's where the shoe pinches"
+  },
+  {
+    "textUkr": "Від добра добра не шукають",
+    "textEng": "The best is often the enemy of the good"
+  },
+  {
+    "textUkr": "І хочеться, і колеться",
+    "textEng": "The cat would eat fish and would not wet her feet"
+  },
+  {
+    "textUkr": "Чоботар ходить без чобіт",
+    "textEng": "The cobbler's wife is the worst shod"
+  },
+  {
+    "textUkr": "Що маємо - не бережемо, а втративши - плачемо",
+    "textEng": "The cow knows not the worth of her tail till she loses it"
+  },
+  {
+    "textUkr": "Не такий чорт страшний, як його малюють",
+    "textEng": "The devil is not so black as he is painted"
+  },
+  {
+    "textUkr": "Собаки гавкають, а караван іде",
+    "textEng": "The dogs bark, but the caravan goes on"
+  },
+  {
+    "textUkr": "Хто рано встає, тому Бог дає",
+    "textEng": "The early bird catches the worm"
+  },
+  {
+    "textUkr": "Кінець - ділу вінець",
+    "textEng": "The end crowns the work"
+  },
+  {
+    "textUkr": "Ціль виправдовує засоби",
+    "textEng": "The end justifies the means"
+  },
+  {
+    "textUkr": "Виняток підтверджує правило",
+    "textEng": "The exception proves the rule"
+  },
+  {
+    "textUkr": "Закохані сваряться - тільки тішаться",
+    "textEng": "The falling out of lovers is the renewing of love"
+  },
+  {
+    "textUkr": "Гра не вартує свічок",
+    "textEng": "The game is not worth the candle"
+  },
+  {
+    "textUkr": "Добре там, де нас нема",
+    "textEng": "The grass is always greener on the other side of the fence"
+  },
+  {
+    "textUkr": "Як вовка не корми, він все одно в ліс дивиться",
+    "textEng": "The leopard cannot change his sports"
+  },
+  {
+    "textUkr": "Горбатого могила справить",
+    "textEng": "The less people think, the more they talk"
+  },
+  {
+    "textUkr": "Короткість - сестра таланту",
+    "textEng": "The more the merrier"
+  },
+  {
+    "textUkr": "В тісноті, та не в обіді",
+    "textEng": "The nearer the bone, the sweeter the flesh [the meat]"
+  },
+  {
+    "textUkr": "Залишки - солодкі",
+    "textEng": "The person always christens his own child first"
+  },
+  {
+    "textUkr": "Біля кості смачніше м'ясо",
+    "textEng": "The pot calls the kettle black"
+  },
+  {
+    "textUkr": "Своя сорочка ближче до тіла",
+    "textEng": "The road to hell is paved with good intentions"
+  },
+  {
+    "textUkr": "Чи я би корова мичала, а твоя би мовчала",
+    "textEng": "The wind cannot be caught in a net"
+  },
+  {
+    "textUkr": "Благими намірами вимощена дорога в пекло",
+    "textEng": "There is a black sheep in every flock"
+  },
+  {
+    "textUkr": "Шукай вітру в полі",
+    "textEng": "There is a small choice in rotten apples"
+  },
+  {
+    "textUkr": "В сім'ї не без виродка",
+    "textEng": "There is life in the old dog yet"
+  },
+  {
+    "textUkr": "Хрін від редьки не солодший",
+    "textEng": "There is many a slip between the cup and the lip"
+  },
+  {
+    "textUkr": "Є ще порох в порохівниці",
+    "textEng": "There is no rose without a thorn"
+  },
+  {
+    "textUkr": "Не говори \"гоп\", поки не перестрибнеш",
+    "textEng": "There is no smoke without fire"
+  },
+  {
+    "textUkr": "Нема троянди без шипів",
+    "textEng": "There is safety in numbers"
+  },
+  {
+    "textUkr": "Нема диму без вогню",
+    "textEng": "This is out of all notch"
+  },
+  {
+    "textUkr": "Один в полі не воїн",
+    "textEng": "Those who live in glass houses should not throw stones"
+  },
+  {
+    "textUkr": "Це ні в які ворота не лізе",
+    "textEng": "Time flies"
+  },
+  {
+    "textUkr": "Якщо хочеш собі добра, нікому не роби зла",
+    "textEng": "Time is money"
+  },
+  {
+    "textUkr": "Час лікує",
+    "textEng": "To be up to the ears in love"
+  },
+  {
+    "textUkr": "Час - найкращий лікар",
+    "textEng": "To cudgel one's brains"
+  },
+  {
+    "textUkr": "Час - гроші",
+    "textEng": "To dance to somebody's tune"
+  },
+  {
+    "textUkr": "Бути по вуха закоханим",
+    "textEng": "To go through fire and water [through thick and thin]"
+  },
+  {
+    "textUkr": "Ламати собі голову",
+    "textEng": "To have one's head in the clouds"
+  },
+  {
+    "textUkr": "Танцювати під чиюсь сопілку",
+    "textEng": "To have rats in the attic"
+  },
+  {
+    "textUkr": "Пройти крізь вогонь, воду і мідні труби",
+    "textEng": "To keep Saint Monday"
+  },
+  {
+    "textUkr": "Будувати повітряні замки",
+    "textEng": "To kick the bucket"
+  },
+  {
+    "textUkr": "Дах поїхав",
+    "textEng": "To know everything is to know nothing"
+  },
+  {
+    "textUkr": "Не всі вдома",
+    "textEng": "To lead [ to give] somebody a dance"
+  },
+  {
+    "textUkr": "Понеділок - день важкий",
+    "textEng": "To look for a pin's head in a cartload of hay"
+  },
+  {
+    "textUkr": "Протягнути ноги",
+    "textEng": "To shove in one's face"
+  },
+  {
+    "textUkr": "Дати дуба",
+    "textEng": "To sleep on a volcano"
+  },
+  {
+    "textUkr": "Знати все - значить нічого не знати",
+    "textEng": "To stew in one's juice"
+  },
+  {
+    "textUkr": "Морочити голову",
+    "textEng": "To whistle for a wind"
+  },
+  {
+    "textUkr": "Заговорювати зуби",
+    "textEng": "Too many cooks spoil the broth"
+  },
+  {
+    "textUkr": "Шукати голку в стозі сіна",
+    "textEng": "Too much knowledge makes the head bald"
+  },
+  {
+    "textUkr": "Уплітати за обидві щоки",
+    "textEng": "Too much pudding will choke a dog"
+  },
+  {
+    "textUkr": "Сидіти на пороховій бочці",
+    "textEng": "Truth comes out of the mouths of babes and suckling"
+  },
+  {
+    "textUkr": "Варитися у власному соку",
+    "textEng": "Truth will out"
+  },
+  {
+    "textUkr": "Поживемо - побачимо.",
+    "textEng": "Wait and see"
+  },
+  {
+    "textUkr": "Бути на сьомому небі (від щастя)",
+    "textEng": "Walk on air"
+  },
+  {
+    "textUkr": "І стіни мають вуха",
+    "textEng": "Walls have ears"
+  },
+  {
+    "textUkr": "Ворожка на двоє ворожила",
+    "textEng": "We shall see what we shall see"
+  },
+  {
+    "textUkr": "Наперед не загадуй",
+    "textEng": "What can't be cured must be endured"
+  },
+  {
+    "textUkr": "Чого не можна вилікувати, те приходиться терпіти",
+    "textEng": "What must be, must be"
+  },
+  {
+    "textUkr": "Що має трапитися, те й буде",
+    "textEng": "What the heart thinks the tongue speaks"
+  },
+  {
+    "textUkr": "Що кого болить, той про це й кричить",
+    "textEng": "When Greek meets Greek then comes the tug of war"
+  },
+  {
+    "textUkr": "Найшла коса на камінь",
+    "textEng": "When in Rome, do as the Romans do"
+  },
+  {
+    "textUkr": "Як грають, так і танцюй",
+    "textEng": "When pigs fly"
+  },
+  {
+    "textUkr": "Коли рак свисне",
+    "textEng": "Wise men learn by other men's mistakes; fools by their own"
+  },
+  {
+    "textUkr": "Після дощику в четвер",
+    "textEng": "With time and patience the leaf of the mulberry becomes satin"
+  },
+  {
+    "textUkr": "Мудрий вчиться на чужих помилках, а дурень - на своїх",
+    "textEng": "You never know what you can do till you try"
   }
 ]
