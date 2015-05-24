@@ -6,8 +6,4 @@ angular.module("proverb")
 			$scope.proverbs = data;
 		});
 
-		$scope.test = function () {
-			alert("sf");
-		}
-
 	}]);

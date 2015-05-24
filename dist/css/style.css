@@ -28,7 +28,7 @@ html, body {
 	top: 60px;
 	position: relative;
 	width: calc(100% - 100px);
-	height: calc(100% - 100px);
+	height: calc(100% - 110px);
 	margin: auto;
 	text-align: center;
 	color: #7b6351;
@@ -36,6 +36,12 @@ html, body {
 	line-height: 42px;
 	font-weight: bold;
 	font-family: 'Marck Script', cursive;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .quote {
@@ -44,6 +50,12 @@ html, body {
 	bottom: 0;
 	width: 100%;
 	padding: 0 15%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .quote-eng {
