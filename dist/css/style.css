@@ -7,9 +7,6 @@ html, body {
 	height: 100%;
 	overflow: hidden;
 }
-.nonDraggableImage{
-	-webkit-user-drag: none;
-}
 
 .bg {
 	position: fixed;
@@ -28,13 +25,13 @@ html, body {
 
 .papyrys {
 	pointer-events: none;
-	top: 40px;
+	top: 60px;
 	position: relative;
-	width: 75%;
-	height: 75%;
+	width: calc(100% - 100px);
+	height: calc(100% - 100px);
 	margin: auto;
 	text-align: center;
-	color: #7B6351;
+	color: #7b6351;
 	font-size: 37px;
 	line-height: 42px;
 	font-weight: bold;
@@ -43,18 +40,19 @@ html, body {
 
 .quote {
 	position: absolute;
-	top:0;
+	top: 0;
 	bottom: 0;
 	width: 100%;
 	padding: 0 15%;
 }
+
 .quote-eng {
 	position: relative;
-	height: 50%;
+	height: calc(50% - 20px);
 }
 
 .quote-ukr {
-	height: 50%;
+	height: calc(50% + 20px);
 	width: 100%;
 }
 
@@ -62,7 +60,7 @@ html, body {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	margin-bottom: 12px;
+	margin-bottom: 26px;
 }
 
 .quote-ukr p {
@@ -72,6 +70,12 @@ html, body {
 .divider {
 	border-bottom: 1px solid #9b8951;
 	box-shadow: 0 1px 1px #fde2ab;
+}
+
+.divider-star {
+	text-align: center;
+	font-family: serif;
+	font-size: 60px;
 }
 
 .controls {
@@ -107,7 +111,7 @@ html, body {
 }
 
 .scetch {
-	width:100%;
-	height:100%;
+	width: 100%;
+	height: 100%;
 	pointer-events: none;
 }
