@@ -1,6 +1,7 @@
 <ul rn-carousel class="image" rn-carousel-index="carouselIndex">
 	<li ng-repeat="proverb in proverbs track by $index">
 		<r-quote
+				ng-if="carouselIndex > $index - 2 && carouselIndex < $index + 2"
 				ng-swipe-left="left()"
 				ng-swipe-right="right()"
 				text-ukr="{{::proverb.textUkr}}" text-eng="{{::proverb.textEng}}">
