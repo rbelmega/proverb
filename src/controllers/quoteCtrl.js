@@ -1,20 +1,8 @@
 angular.module("proverb")
-.controller("quoteCtrl",["$scope", "quoteService", function($scope, quoteService){
+	.controller("quoteCtrl", ["$scope", "quoteService", "$swipe", function($scope, quoteService, $swipe) {
 
-
-		var allProverbs;
-		quoteService.getQuotes().then(function(data){
-			allProverbs = data.slice();
-			$scope.proverbs = allProverbs.splice(0,3);
+		quoteService.getQuotes().then(function(data) {
+			$scope.proverbs = data;
 		});
 
-		$scope.left = function(){
-			$scope.proverbs.push(allProverbs.splice(0,1)[0]);
-
-			console.log($scope.proverbs);
-		};
-
-		$scope.right = function(){
-			console.log("left");
-		}
 	}]);

@@ -1,1 +1,1 @@
-angular.module("components", ["quote"]);
+angular.module("components", ["quote", "r-swipe"]);

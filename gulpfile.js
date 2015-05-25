@@ -39,14 +39,14 @@ gulp.task("coponentsView", function(){
 gulp.task("js", function(){
 	return gulp.src(["src/*.js", "src/controllers/**/*.js", "src/services/**/*.js"])
 		.pipe(concat('app.js'))
-		.pipe(uglify())
+		//.pipe(uglify())
 		.pipe(gulp.dest('dist/'));
 });
 
 gulp.task("components", function(){
 	return gulp.src("src/components/**/*.js")
 		.pipe(concat('components.js'))
-		.pipe(uglify())
+		//.pipe(uglify())
 		.pipe(gulp.dest('dist/'));
 });
 

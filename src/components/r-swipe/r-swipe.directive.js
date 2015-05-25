@@ -1,21 +1,3 @@
-angular.module("components", ["quote", "r-swipe"]);
-angular.module("quote", [])
-	.directive("rQuote", function() {
-		return {
-			restrict: "E",
-			scope: {
-				textUkr: "@",
-				textEng: "@",
-				renderIndex: "@",
-				carouselIndex: "@"
-			},
-			templateUrl: "components/quote/quote.html",
-			link: function(){
-			}
-		}
-
-	});
-//angular.module("quote", []);
 angular.module("r-swipe", ["ngTouch"])
 
 	.directive("rSwipe", ["$swipe", function($swipe) {
