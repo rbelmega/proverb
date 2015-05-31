@@ -1,6 +1,7 @@
-<ul rn-carousel class="image">
+<ul rn-carousel class="image" rn-carousel-index="carouselIndex">
 	<li ng-repeat="proverb in ::proverbs track by $index">
 		<r-quote
+				ng-if="checkVisible(carouselIndex, $index)"
 				text-ukr="{{::proverb.textUkr}}" text-eng="{{::proverb.textEng}}">
 		</r-quote>
 	</li>
