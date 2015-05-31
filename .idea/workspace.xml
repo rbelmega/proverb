@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8249a94-0fdb-45c1-9fed-f24fb6365d53" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/quotes.html" afterPath="$PROJECT_DIR$/dist/views/quotes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/quotes.html" afterPath="$PROJECT_DIR$/src/views/quotes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b8249a94-0fdb-45c1-9fed-f24fb6365d53" name="Default" comment="" />
     <ignored path="proverb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
