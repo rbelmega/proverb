@@ -13,9 +13,8 @@ var opts = {
 var src = [
 	"bower_components/angular/angular.min.js",
 	"bower_components/angular-ui-router/release/angular-ui-router.min.js",
-	"bower_components/angular-animate/angular-animate.min.js",
-	"bower_components/angular-touch/angular-touch.min.js",
-	"bower_components/angular-carousel/dist/angular-carousel.min.js"
+	"bower_components/hammerjs/hammer.min.js",
+	"bower_components/angular-gestures/gestures.min.js"
 ];
 
 gulp.task('default', ["compress", "html", "css", "img", "js", "components", "views", "coponentsView", "json"], function() {

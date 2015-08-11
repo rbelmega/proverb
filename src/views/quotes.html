@@ -1,8 +1,11 @@
-<ul rn-carousel class="image" rn-carousel-index="carouselIndex">
-	<li ng-repeat="proverb in ::proverbs track by $index">
-		<r-quote
-				ng-if="checkVisible(carouselIndex, $index)"
-				text-ukr="{{::proverb.textUkr}}" text-eng="{{::proverb.textEng}}">
-		</r-quote>
-	</li>
-</ul>
+<li ng-repeat="proverb in ::proverbs track by $index"
+		class="li-quote next"
+		ng-class="{'current': $index === 0}"
+		hm-drag-left="nextItem($event)"
+		hm-drag-right="prevItem($event)"
+		ng-mouseup= "stop($event)"
+		>
+	<r-quote
+			text-ukr="{{::proverb.textUkr}}" text-eng="{{::proverb.textEng}}">
+	</r-quote>
+</li>

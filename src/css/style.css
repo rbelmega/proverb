@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 html, body {
 	width: 100%;
 	height: 100%;
@@ -11,41 +14,26 @@ html, body {
 	right: 0;
 	left: 0;
 	z-index: -1;
-	-webkit-filter: blur(5px);
-	-moz-filter: blur(5px);
-	-o-filter: blur(5px);
-	-ms-filter: blur(5px);
-	filter: blur(5px);
-	background: url("../img/beautiful-forest-and-mountains-2628-1920x1080.jpg");
+	background-size: 100% 100% !important;
+	background: url("../img/bg.jpg") no-repeat ;
 }
 
-.papyrys {
-	pointer-events: none;
-	top: 60px;
-	position: relative;
-	width: calc(100% - 40px);
-	height: calc(100% - 110px);
-	margin: auto;
-	text-align: center;
-	color: #7b6351;
-	font-size: 37px;
-	line-height: 42px;
-	font-weight: bold;
-	font-family: 'Marck Script', cursive;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
+
 
 .quote {
+	white-space: normal;
+	color: #ffffff;
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	width: 100%;
 	padding: 0 15%;
+	height: 100%;
+	text-align: center;
+	font-size: 37px;
+	line-height: 42px;
+	text-shadow: 1px 1px 1px #808080;
+	font-family: 'Marck Script', cursive;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -122,4 +110,46 @@ html, body {
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
+}
+
+.image {
+	margin: 0;
+}
+
+.li-quote {
+	cursor: default;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	display: inline-block;
+}
+
+ui-view {
+	display: block;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+r-quote {
+	pointer-events: none;
+}
+
+
+.li-quote.prev {
+	transform:translate3d(-100%,0px, 0px) scale(1);
+}
+
+.li-quote.next {
+	transform:translate3d(100%,0px, 0px) scale(1);
+}
+.li-quote.current {
+	transform:translate3d(0px,0px, 0px) scale(1);
+}
+
+.li-quote.stopped {
+	transition: 1s ease-in-out;
 }
