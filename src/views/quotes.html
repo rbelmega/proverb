@@ -1,9 +1,13 @@
 <li ng-repeat="proverb in ::proverbs track by $index"
+
 		class="li-quote next"
-		ng-class="{'current': $index === 0}"
+		ng-class="{
+		'current': $index === 0,
+		'prev-item': $index === (display - 1)
+		}"
 		hm-drag-left="nextItem($event)"
 		hm-drag-right="prevItem($event)"
-		ng-mouseup= "stop($event)"
+		hm-dragend="stop($event)"
 		>
 	<r-quote
 			text-ukr="{{::proverb.textUkr}}" text-eng="{{::proverb.textEng}}">
