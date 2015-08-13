@@ -8,6 +8,7 @@
 		hm-drag-left="nextItem($event)"
 		hm-drag-right="prevItem($event)"
 		hm-dragend="stop($event)"
+		ng-if="check(display, $index)"
 		>
 	<r-quote
 			text-ukr="{{::proverb.textUkr}}" text-eng="{{::proverb.textEng}}">
