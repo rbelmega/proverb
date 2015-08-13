@@ -10,83 +10,92 @@ angular.module("proverb")
 			var next;
 			var prev;
 			var direction;
+			var distance;
 
 			$scope.display = 0;
 
 			$scope.nextItem = function(evt) {
 				direction = "next";
 				var delta = evt.deltaX;
-				var scale = 100 / Math.abs(delta);
 				prev = angular.element(document.querySelector(".prev-item"));
-				scale = scale > 1 ? 1 : scale;
 				current = angular.element(evt.target);
 				next = current.next();
+				var scaleCurrent = (current[0].clientWidth / 2 - Math.abs(delta)) / (current[0].clientWidth / 2);
+				scaleCurrent = scaleCurrent > 1 ? 1 : scaleCurrent;
+				var scaleNext = 1 + scaleCurrent;
 
+				distance = scaleCurrent;
 				var nextDelta = current[0].clientWidth + delta;
 				var prevDelta = delta - current[0].clientWidth;
 
 				current
+					.removeClass("stopped")
 					.attr("style",
-					"-webkit-transform: translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"-moz-transform:    translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"-ms-transform:     translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"-o-transform:      translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"transform:   		translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");"
+					"-webkit-transform: translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"-moz-transform:    translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"-ms-transform:     translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"-o-transform:      translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"transform:   		translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");"
 				);
 				next
 					.removeClass("stopped")
 					.attr("style",
-					"-webkit-transform: translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-moz-transform:    translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-ms-transform:     translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-o-transform:      translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"transform:   		translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");"
+					"-webkit-transform: translate3d(" + nextDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"-moz-transform:    translate3d(" + nextDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"-ms-transform:     translate3d(" + nextDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"-o-transform:      translate3d(" + nextDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"transform:   		translate3d(" + nextDelta + "px,0px, 0px) scale(" + scaleNext + ");"
 				);
 				prev
+					.removeClass("stopped")
 					.attr("style",
-					"-webkit-transform: translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-moz-transform:    translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-ms-transform:     translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-o-transform:      translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"transform:   		translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");"
+					"-webkit-transform: translate3d(" + prevDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"-moz-transform:    translate3d(" + prevDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"-ms-transform:     translate3d(" + prevDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"-o-transform:      translate3d(" + prevDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"transform:   		translate3d(" + prevDelta + "px,0px, 0px) scale(" + 1 + ");"
 				);
 			};
 
 			$scope.prevItem = function(evt) {
 				direction = "prev";
 				var delta = evt.deltaX;
-				var scale = 100 / Math.abs(delta);
-				scale = scale > 1 ? 1 : scale;
 				current = angular.element(evt.target);
 				prev = angular.element(document.querySelector(".prev-item"));
+				var scaleCurrent = (current[0].clientWidth / 2 - Math.abs(delta)) / (current[0].clientWidth / 2);
+				scaleCurrent = scaleCurrent > 1 ? 1 : scaleCurrent;
+				var scaleNext = 1 + scaleCurrent;
+				distance = scaleCurrent;
 
 				var nextDelta = current[0].clientWidth + delta;
 				var prevDelta = delta - current[0].clientWidth;
 
 				current
+					.removeClass("stopped")
 					.attr("style",
-					"-webkit-transform: translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"-moz-transform:    translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"-ms-transform:     translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"-o-transform:      translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");" +
-					"transform:   		translate3d(" + delta + "px,0px, 0px) scale(" + scale + ");"
+					"-webkit-transform: translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"-moz-transform:    translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"-ms-transform:     translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"-o-transform:      translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");" +
+					"transform:   		translate3d(" + delta + "px,0px, 0px) scale(" + scaleCurrent + ");"
 				);
 				next
 					.removeClass("stopped")
 					.attr("style",
-					"-webkit-transform: translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-moz-transform:    translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-ms-transform:     translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-o-transform:      translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"transform:   		translate3d(" + nextDelta + "px,0px, 0px) scale(" + scale + ");"
+					"-webkit-transform: translate3d(" + nextDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"-moz-transform:    translate3d(" + nextDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"-ms-transform:     translate3d(" + nextDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"-o-transform:      translate3d(" + nextDelta + "px,0px, 0px) scale(" + 1 + ");" +
+					"transform:   		translate3d(" + nextDelta + "px,0px, 0px) scale(" + 1 + ");"
 				);
 				prev
+					.removeClass("stopped")
 					.attr("style",
-					"-webkit-transform: translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-moz-transform:    translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-ms-transform:     translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"-o-transform:      translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");" +
-					"transform:   		translate3d(" + prevDelta + "px,0px, 0px) scale(" + scale + ");"
+					"-webkit-transform: translate3d(" + prevDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"-moz-transform:    translate3d(" + prevDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"-ms-transform:     translate3d(" + prevDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"-o-transform:      translate3d(" + prevDelta + "px,0px, 0px) scale(" + scaleNext + ");" +
+					"transform:   		translate3d(" + prevDelta + "px,0px, 0px) scale(" + scaleNext + ");"
 				);
 			};
 
@@ -94,6 +103,19 @@ angular.module("proverb")
 				$timeout(function() {
 					$scope.display = direction === "prev" ? $scope.display -= 1 : $scope.display += 1;
 
+					//prev
+					//	.addClass("stopped")
+					//	.attr("style", "");
+					//next.
+					//	addClass("stopped")
+					//	.attr("style", "");
+					//current
+					//	.addClass("stopped")
+					//	.attr("style", "");
+					//
+					////if (distance > 0.6) {
+					////	return;
+					////}
 					if (direction === "prev") {
 						prev
 							.addClass("current")
